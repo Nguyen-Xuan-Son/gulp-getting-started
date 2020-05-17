@@ -1,0 +1,16 @@
+$font-stack: Helvetica,
+sans-serif;
+body {
+    font: 100% $font-stack;
+}
+
+h1 {
+    color: rgb(33, 216, 9)
+}
+
+.container {
+    img {
+        width: 100px;
+        height: auto;
+    }
+}

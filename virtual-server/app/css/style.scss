@@ -1,0 +1,32 @@
+$font-stack: Helvetica,
+sans-serif;
+$primary-color: #333;
+body {
+    font: 100% $font-stack;
+    color: $primary-color;
+    background-color: blue($color: #e97171);
+}
+
+.parent {
+    background-color: rgb(226, 41, 28);
+    .children {
+        background-color: rgb(196, 134, 42);
+        color: rgb(30, 42, 114);
+    }
+}
+
+nav {
+    ul {
+        margin: 11;
+        padding: 1;
+        list-style: none;
+    }
+    li {
+        display: inline-block;
+    }
+    a {
+        display: block;
+        padding: 6px 12px;
+        text-decoration: none;
+    }
+}

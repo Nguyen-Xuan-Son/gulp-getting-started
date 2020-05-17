@@ -1,0 +1,1 @@
+"use strict";var random=function(){return Math.floor(65536*(1+Math.random())).toString(16).substring(1)};console.log(random());

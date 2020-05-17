@@ -1,0 +1,1 @@
+"use strict";var temp=1;console.log(temp);
